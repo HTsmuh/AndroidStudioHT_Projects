@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Blood Donation</string>
+    <string name="blood_prompt">Select Blood group</string>
+    <string-array name="blood_group">
+        <item>Select Blood group</item>
+        <item>A Positive</item>
+        <item>B Positive</item>
+        <item>AB Positive</item>
+        <item>O Positive</item>
+        <item>A Negative</item>
+        <item>B Negative</item>
+        <item>AB Negative</item>
+        <item>O Negative</item>
+    </string-array>
+
+    <style name="MyMaterialTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        ...
+    </style>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>My Requests</item>
+        <item>Post Requirements</item>
+        <item>Notifications</item>
+        <item>Setting</item>
+    </string-array>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

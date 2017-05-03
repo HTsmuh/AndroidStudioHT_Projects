@@ -1,0 +1,118 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asadullah.blooddonationsystem.Drawer.PostRequest">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/container">
+
+            <TextView
+                style="@style/labels"
+                android:text="Blood Group" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sBloodGroup"
+                android:entries="@array/blood_group"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Number of units required" />
+
+            <EditText
+                style="@style/inputs"
+                android:inputType="number"
+                android:id="@+id/etNumOfUnits"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Urgency" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sUrgency"
+                android:entries="@array/urgency"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Country" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sCountry"
+                android:entries="@array/country"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="State" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sState"
+                android:entries="@array/state"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="City" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sCity"
+                android:entries="@array/city"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Hospital" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sHospital"
+                android:entries="@array/hospital"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Your relation to patient" />
+
+            <Spinner
+                style="@style/spinners"
+                android:id="@+id/sRelation"
+                android:entries="@array/relation"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Contact no." />
+
+            <EditText
+                style="@style/inputs"
+                android:inputType="number"
+                android:id="@+id/etContact"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Additional instructions" />
+
+            <EditText
+                style="@style/inputs"
+                android:minLines="4"
+                android:gravity="start"
+                android:id="@+id/etExtras"/>
+
+            <Button
+                style="@style/buttons"
+                android:text="Post"
+                android:onClick="postRequest"
+                android:id="@+id/bPostRequest"
+                android:layout_marginBottom="@dimen/gap16"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

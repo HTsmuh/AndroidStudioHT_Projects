@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Blood Donation System</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>My Request</item>
+        <item>Post Requirement</item>
+        <item>Notification</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>A Positive</item>
+        <item>B Positive</item>
+        <item>O Positive</item>
+        <item>A Negative</item>
+        <item>B Negative</item>
+        <item>O Negative</item>
+    </string-array>
+
+    <string-array name="urgency">
+        <item>Urgent</item>
+        <item>Within 5 hours</item>
+        <item>Within 12 hours</item>
+        <item>Within 24 hours</item>
+        <item>Within 2 days</item>
+        <item>Within Week</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Pakistan</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Sindh</item>
+        <item>KPK</item>
+        <item>Islamabad</item>
+        <item>Punjab</item>
+        <item>Balochistan</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Karachi</item>
+        <item>Hyderabad</item>
+    </string-array>
+
+    <string-array name="hospital">
+        <item>Indus Hospital</item>
+        <item>Ziauddin Hospital</item>
+        <item>Agha Khan Hospital</item>
+        <item>Liaquat National Hospital</item>
+        <item>OMI</item>
+        <item>Jinnah Hospital</item>
+        <item>Holy Family Hospital</item>
+    </string-array>
+
+    <string-array name="relation">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Aunt</item>
+        <item>Uncle</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Friend</item>
+        <item>Neighbour</item>
+        <item>None</item>
+    </string-array>
+
+
+</resources>

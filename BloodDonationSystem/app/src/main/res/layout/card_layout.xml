@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/gap8">
+
+            <TextView
+                style="@style/labels"
+                android:text="Name"
+                android:id="@+id/tvName"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Required Units"
+                android:id="@+id/tvRequiredUnits"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Address"
+                android:id="@+id/tvAddress"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Urgency"
+                android:id="@+id/tvUrgency"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="contact"
+                android:id="@+id/tvContact"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Additional info"
+                android:id="@+id/tvExtras"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Volunteers"
+                android:id="@+id/tvVolunteers"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Current requirement"
+                android:id="@+id/tvCurrentRequirement"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/theme_red">
+                
+                <TextView
+                    style="@style/cardButtons"
+                    android:text="Volunteer"
+                    android:id="@+id/tvbVolunteer"/>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"/>
+
+                <TextView
+                    style="@style/cardButtons"
+                    android:text="Comment"
+                    android:id="@+id/tvbComment"/>
+                
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

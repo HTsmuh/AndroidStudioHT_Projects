@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screens.PostDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/container">
+
+            <TextView
+                style="@style/headings"
+                android:text="Post Details"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Name"
+                android:id="@+id/tvName"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Required Units"
+                android:id="@+id/tvRequiredUnits"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Address"
+                android:id="@+id/tvAddress"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Urgency"
+                android:id="@+id/tvUrgency"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="contact"
+                android:id="@+id/tvContact"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Additional info"
+                android:id="@+id/tvExtras"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Volunteers"
+                android:id="@+id/tvVolunteers"/>
+
+            <TextView
+                style="@style/labels"
+                android:text="Current requirement"
+                android:id="@+id/tvCurrentRequirement"/>
+
+
+            <TextView
+                style="@style/headings"
+                android:text="Volunteers"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rvVolunteers"/>
+
+            <TextView
+                style="@style/headings"
+                android:text="Comments"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

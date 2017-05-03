@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "880433292741",
+    "firebase_url": "https://testing-9e40a.firebaseio.com",
+    "project_id": "testing-9e40a",
+    "storage_bucket": "testing-9e40a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880433292741:android:7cd9c4b1e132b9d8",
+        "android_client_info": {
+          "package_name": "com.example.hp.logintesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880433292741-pgafmcrqeeo7b6omqm0du1rfaolscba3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp6Wxi96jYHgB1pyMc5QHk9-4YHM2y0kQ"
+        },
+        {
+          "current_key": "AIzaSyC7M0TgZKND-KQouTUUCM2rv6HcIwvfYfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
